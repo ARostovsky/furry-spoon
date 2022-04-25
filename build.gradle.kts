@@ -11,4 +11,9 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib"))
+    implementation("org.junit.jupiter:junit-jupiter:5.8.1")
+}
+
+tasks.test {
+    useJUnitPlatform()
 }
